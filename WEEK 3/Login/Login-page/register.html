@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Up</h1>
+        <p class="existing-account">Already have an account? <a  class="login"href="login.html">Log in.</a></p>
+    </header>
+
+<form  action="success.html">
+    <table>
+    <div id ="form">
+        <tr>
+        <td><label for="firstname"> First name</label></td>
+        <td><input type="text" name="firstname" id="fname" placeholder="First name"  required></td>
+        </tr>
+        <tr>
+        <td><label for="lastname"> Last name</label></td>
+        <td><input type="text" name="lastname" placeholder="Last name"  id="lname" required></td>
+    </tr>
+    
+    <tr>
+        <td><label for="phone"> Phone no</label></td>
+<td><input type="tel" name="phone-no" id="phoneno" placeholder="####~###~####" required></td>
+    </tr>
+    <tr>
+        <td><label for="email"> Email</label></td>
+        <td><input type="email" name="email" id="mail" placeholder="emailaddress@gmail.com"></td>
+        
+    </tr>
+    <tr>
+        <td><label for="gender"> Gender</label></td>
+        <td><select name="gender" id="gender">
+        <option value="male"> Male</option>
+        <option value="female"> Female</option>
+        <option value="binary"> Binary</option>
+        <option value="other"> Other</option>
+    </select></td>
+</tr>
+    <tr>
+        <td><label for="dob"> Date of birth</label></td>
+        <td><input type="date" name="date-of-birth" id="date" required></td>
+    </tr>
+    <tr>
+        <td><label for="favorite-color">Choose your favorite color</label></td>
+    <td><input type="color" name="fav-color" id="favcolor"></td>
+    </tr>
+      </table>
+      <div class="sign-butt">
+        <a href="success.html"><button >Sign Up</button></a>
+      </div>
+    </div>
+</form>
+</body>
+</html>

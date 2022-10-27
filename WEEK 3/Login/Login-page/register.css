@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin: 0; 
+    box-sizing: border-box;  
+}
+html{
+background-color: whitesmoke;
+}
+body{
+    width:100%;
+    height:100%;
+    padding: 40px 20px 245px;
+    background-color: whitesmoke;
+}
+input{
+    width: 100%;
+    border-bottom: solid darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 1px;
+    font-family: 'corbel';
+    background-color: transparent;
+    padding: 0px 0px 4px;
+  outline-color: transparent;
+}
+input#lname:hover{
+    background-color:transparent;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+input#phoneno:hover{
+    background-color:transparent;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+input#mail:hover{
+    background-color:transparent;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+input#date:hover{
+    background-color:transparent;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+input#favcolor{
+  cursor: pointer;
+    width: 100%;
+    height: 10%;
+}
+input#fname:hover{
+    background-color:transparent;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 50px;
+  font-family: "corbel";
+  text-align: center;
+}
+.existing-account{
+    font-family: "corbel";
+    text-align: center;
+    font-size: 19px;
+}
+.login{
+    font-family: "corbel";
+    font-size: 19px;
+    text-decoration: none;
+    color: #116dff
+}
+table{
+    width: 100%;
+    height: 100%;
+    display: flex; justify-content: space-evenly;
+    padding: 20px 20px 60px;
+  font-family: "corbel";
+   font-size: 19px;
+}
+td{
+display: flex; justify-content: space-between;
+  width: 100%;
+  padding:1.4px;
+}
+input#fname{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+#gender{
+    color: white;
+background-color: #116dff;
+border-width: none;
+border-color: transparent;
+font-family: 'corbel';
+font-size: 17px;
+}
+input#date{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+input#lname{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+input#gender{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+input#phoneno{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+input#mail{
+    font-family: 'corbel';
+    font-size: 14px;
+}
+a.signup{
+    width: 100%;
+    display: flex; justify-content: center;
+    text-decoration: none;
+    margin: 0px 0px 15px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    box-shadow: transparent;
+    border-color: transparent;
+    border-radius: 15px 0px 15px 0px;
+    background-color: #116dff;
+    font-family: "corbel";
+    font-size: 17px;
+    color: white;
+    padding: 2px;
+    cursor: pointer;    
+}
+.sign-butt{
+  width: 100%;
+  display: flex; justify-content: center;
+  margin-top:8px;
+}

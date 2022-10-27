@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fafffd;
+}
+body {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10vh;
+}
+input#email {
+  width: 100%;
+  border-bottom: solid darkgray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+  font-family: "corbel";
+  background-color: transparent;
+}
+
+input#pass {
+  width: 100%;
+  border-bottom: solid darkgray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 1px;
+  font-family: "corbel";
+  background-color: transparent;
+}
+input#email:active {
+  box-shadow: #fafffd;
+  border-color: #116dff;
+}
+input#pass:active {
+  box-shadow: #fafffd;
+  border-color: #116dff;
+}
+input#email:hover {
+  background-color: transparent;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+input#pass:hover {
+  background-color: transparent;
+  border-color: black;
+  width: 100%;
+  height: 100%;
+}
+header {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "corbel";
+  text-align: center;
+}
+p {
+  font-family: "corbel";
+  text-align: center;
+  font-size: 19px;
+}
+a.signup {
+  font-family: "corbel";
+  text-decoration: none;
+  color: #116dff;
+}
+div.footw {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+a.forgot {
+  font-family: "corbel";
+  text-decoration: none;
+  color: #116dff;
+}
+a.priv {
+  font-family: "corbel";
+  text-decoration: none;
+  color: #116dff;
+}
+a.terms {
+  font-family: "corbel";
+  text-decoration: none;
+  color: #116dff;
+}
+button {
+  width: 200px;
+  margin-top: 10px;
+  height: 30px;
+  text-align: center;
+  box-shadow: transparent;
+  border-color: transparent;
+  border-radius: 15px 0px 15px 0px;
+  background-color: #116dff;
+  font-family: "corbel";
+  font-size: 17px;
+  color: white;
+  padding: 2px;
+  cursor: pointer;
+}
+.sect-1 {
+  padding: 10px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.sect-2 {
+  padding: 2px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.details {
+  font-family: "corbel";
+  padding: 10px;
+  font-size: 18px;
+}
+.pass {
+  font-family: "corbel";
+}
+.rem {
+  width: 100%;
+  font-family: "corbel";
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+input#email {
+  padding: 1px 1px 2px;
+}
+input#pass {
+  padding: 1px 2px;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+}
+
+.foot {
+  display: block;
+  justify-content: stretch;
+
+  margin-top: 40px;
+}
+.footp {
+  font-size: 17px;
+}
